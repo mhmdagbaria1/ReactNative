@@ -22,7 +22,7 @@
   "output": "single"
 },
 "experiments": {
-  "baseUrl": "/ReactNative"
+ "baseUrl": "./"
 },
     "plugins": [
       
