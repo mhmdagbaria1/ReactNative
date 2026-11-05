@@ -1,0 +1,29 @@
+
+Using (experimental) base path: /ReactNative
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Web Bundling failed 9249ms index.js (145 modules)
+
+Error: Unable to resolve module @expo/vector-icons from C:\Users\win 11\Documents\GitHub\ReactNative\App.js: @expo/vector-icons could not be found within the project or in these directories:
+  node_modules
+  ..\..\..\node_modules
+[0m [90m 1 |[39m [36mimport[39m [33mReact[39m[33m,[39m { useState[33m,[39m useEffect } [36mfrom[39m [32m'react'[39m[33m;[39m
+ [90m 2 |[39m [36mimport[39m { [33mNavigationContainer[39m } [36mfrom[39m [32m'@react-navigation/native'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mIonicons[39m } [36mfrom[39m [32m'@expo/vector-icons'[39m[33m;[39m
+ [90m   |[39m                           [31m[1m^[22m[39m
+ [90m 4 |[39m [36mimport[39m { createNativeStackNavigator } [36mfrom[39m [32m'@react-navigation/native-stack'[39m[33m;[39m
+ [90m 5 |[39m [36mimport[39m [33mAsyncStorage[39m [36mfrom[39m [32m'@react-native-async-storage/async-storage'[39m[33m;[39m
+ [90m 6 |[39m [36mimport[39m { onAuthStateChanged } [36mfrom[39m [32m'firebase/auth'[39m[33m;[39m[0m
+
+Import stack:
+
+ App.js
+ | import "@expo/vector-icons"
+
+ index.js
+ | import "./App"
+
+ 
+ | import "./index"
+
