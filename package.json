@@ -29,9 +29,6 @@
     "deploy": "gh-pages --nojekyll -d dist"
   },
   "private": true,
-  "experiments": {
-    "baseUrl": "/ReactNative"
-  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }

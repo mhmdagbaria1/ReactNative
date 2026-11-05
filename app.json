@@ -18,12 +18,12 @@
       }
     },
     "web": {
-  "favicon": "./assets/favicon.png",
-  "output": "single"
-},
-"experiments": {
- "baseUrl": "./"
-},
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "experiments": {
+      "baseUrl": "/ReactNative"
+    },
     "plugins": [
       
     ]
